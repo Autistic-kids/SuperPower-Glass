@@ -1,0 +1,64 @@
+.error-page .title .inner{
+	background: #3456ba;
+	border: 5px solid #3456ba;
+}
+.error-page .content h2{
+	color: #3456ba;
+}
+.error-page .content .button a{
+	background: #3456ba;
+	border: 1px solid #3456ba;
+}
+.error-page .content .button a:hover{
+	color: #3456ba;
+    border-color: #3456ba;
+}
+.event-col .event .event-body .text:hover h2{
+    color:#3456ba;
+}
+
+@font-face {
+	font-family: 'icomoon';
+	src:  url('fonts/icomoon.eot?wfb3fl');
+	src:  url('fonts/icomoon.eot?wfb3fl#iefix') format('embedded-opentype'),
+	  url('fonts/icomoon.ttf?wfb3fl') format('truetype'),
+	  url('fonts/icomoon.woff?wfb3fl') format('woff'),
+	  url('fonts/icomoon.svg?wfb3fl#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'icomoon' !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+  
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-wand-magic-sparkles-solid:before {
+	content: "\e900";
+  }
+  .icon-eye-solid:before {
+	content: "\e901";
+  }
+  .icon-magic-wand:before {
+	content: "\e997";
+  }
+  .icon-eye:before {
+	content: "\e9ce";
+  }
+  .icon-phone:before {
+	content: "\e942";
+  }
+  .icon-phone-solid:before {
+    content: "\e900";
+  }

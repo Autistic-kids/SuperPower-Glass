@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+:root{
+   --white:rgb(238, 238, 238);
+   --light-bg:rgb(255, 255, 255);
+   --border:.2rem solid rgba(0,0,0,.1);
+   --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+*{
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none !important;
+   text-transform: capitalize;
+}
+
+section{
+   padding:6rem 2rem;
+}
+
+.heading{
+   text-align: center;
+   font-size: 4rem;
+   color:#2757B6;
+   text-transform: uppercase;
+   font-weight: bolder;
+   margin-bottom: 3rem;
+}
+
+.services{
+   background-color: var(--light-bg);
+}
+
+.services .box-contain{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+   gap:3rem;
+}
+
+.services .box-contain .box{
+   text-align: center;
+   padding:2rem;
+   background-color: var(--white);
+   box-shadow: var(--box-shadow);
+   border-radius: 1rem;
+}
+
+.services .box-contain .box img{
+   margin:1rem 0;
+   height: 4rem;
+   color: #2757B6;
+}
+.services .box-contain .box .src{
+   margin:1rem 0;
+   height: 4rem;
+   color: #2757B6;
+   margin-left: auto;
+   margin-right: auto;
+}
+.services .box-contain .box h3{
+   font-size: 2rem;
+   padding:1rem 0;
+   color:#2757B6;
+}
+
+.services .box-contain .box p{
+   font-size: 1.5rem;
+   color:#575757;
+   line-height: 2;
+}
