@@ -11,5 +11,6 @@ A few resources to get you started if this is your first project:
 view the [online web static](https://kids-87f4a.web.app/index.html).
 
 When downloading this code, it does not work because it needs to download PLATFORM SDK and link it to autoload.php file
+Note to Turn on the Web we need XAMPP server
 
 <img src="Web.jpg">
