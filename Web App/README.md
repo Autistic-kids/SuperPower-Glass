@@ -1,4 +1,4 @@
-# Web App.
+# Web App
 
 ## Getting Started
 
